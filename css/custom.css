@@ -1,0 +1,168 @@
+body {
+	font-family: 'Cantarell', sans-serif;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Signika Negative', sans-serif;
+}
+
+h1 {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 36px;
+	text-transform: uppercase;
+	letter-spacing: 0.076em;
+	word-spacing: 0em;
+	line-height: 1.4;
+}
+
+h2 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+
+#header {
+	min-height: 250px;
+	color: #f1744d;
+	position: relative;
+}
+
+#header-background {
+	background-repeat: repeat-x;
+	background-position: bottom;
+	min-height: 250px;
+	background-image: url(../img/skyline-silhouette-250px.gif);
+	position: absolute;
+	bottom: 0px;
+	z-index: -10;
+}
+
+#header-content {
+	padding-bottom: 190px;
+	width: 90%;
+	margin: auto;
+}
+
+
+#main {
+	position: relative;
+	min-height: 800px;
+}
+
+#main-background {
+	background-image: url(../img/greyscale-map.png);
+	min-height: 800px;
+	background-repeat: cover;
+	position: absolute;
+	z-index: -10;
+	background-size: cover;
+}
+
+
+#main-content {
+	padding-top: 50px;
+	width: 90%;
+	margin: auto;
+}
+
+.centered {
+	text-align: center;
+}
+
+.btn-xlarge {
+	padding: 20px 60px;
+	font-size: 31px;
+}
+
+#header b {
+	background-color: #f6af9a;
+	color: #fff;
+	padding: 0 10px 0 10px;
+}
+
+#header h1 {
+	line-height: 66px;
+	padding-top: 30px;
+	font-size: 52px;
+}
+
+#main h2 {
+	font-size: 31px;
+	padding-top: 30px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h2.level1 {
+	width: 30%;
+	margin: auto
+}
+
+h2.level2 {
+	width: 40%;
+	margin: auto
+}
+
+h2.level3 {
+	width: 50%;
+	margin: auto
+}
+
+h2.level4 {
+	width: 60%;
+	margin: auto
+}
+
+.column-info {
+	margin-top: 50px;
+	width: 90%;
+	margin: auto;
+}
+
+#detail-section {
+	background-color: #f1744d;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#detail-section p {
+	font-size: 16px;
+}
+
+#footer {
+	background-color: #333;
+	color: #FFF;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#footer-content {
+	margin: auto;
+	width: 90%;
+}
+
+#bus-info {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.press-logo {
+	height: 50px;
+	padding: 10px;
+}
+
+#psst {
+	width: 100%;
+}
+
+#psst-content {
+	width: 90%;
+	margin: auto;
+}
+
+#psst-button {
+	margin-right: 60px;
+}
