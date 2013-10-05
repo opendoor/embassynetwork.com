@@ -29,16 +29,17 @@ h2 {
 	min-height: 250px;
 	color: #f1744d;
 	position: relative;
+	
 }
 
 #header-background {
 	background-repeat: repeat-x;
 	background-position: bottom;
 	min-height: 250px;
-	background-image: url(../img/skyline-silhouette-250px.gif);
+	background-image: url(../img/skyline-silhouette-250px-orange.gif);
 	position: absolute;
 	bottom: 0px;
-	z-index: -10;
+	z-index: 	-10;
 }
 
 #header-content {
@@ -50,13 +51,14 @@ h2 {
 
 #main {
 	position: relative;
-	min-height: 800px;
+	min-height: 500px;
 }
 
+
 #main-background {
-	background-image: url(../img/greyscale-map.png);
-	min-height: 800px;
-	background-repeat: cover;
+	background-image: url(../img/greyscale-map-peach.jpg);
+	min-height: 600px;
+	background-repeat:repeat-x;
 	position: absolute;
 	z-index: -10;
 	background-size: cover;
@@ -68,7 +70,9 @@ h2 {
 	width: 90%;
 	margin: auto;
 }
-
+.even{
+	min-height:170px;
+}
 .centered {
 	text-align: center;
 }
@@ -88,12 +92,19 @@ h2 {
 	line-height: 66px;
 	padding-top: 30px;
 	font-size: 52px;
+	color:#564945;
 }
 
 #main h2 {
 	font-size: 31px;
 	padding-top: 30px;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#main h3{
+	color:#564945;
+}
+#main.row-fluid{
+	background:#f8b9a6;
 }
 
 h2.level1 {
@@ -123,7 +134,7 @@ h2.level4 {
 }
 
 #detail-section {
-	background-color: #f1744d;
+	background-color: #fff;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -154,9 +165,7 @@ h2.level4 {
 	padding: 10px;
 }
 
-#psst {
-	width: 100%;
-}
+
 
 #psst-content {
 	width: 90%;
@@ -165,4 +174,20 @@ h2.level4 {
 
 #psst-button {
 	margin-right: 60px;
+}
+.btn-peach {
+  background-color: hsl(13, 72%, 69%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4c9bd", endColorstr="#e88f77");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#f4c9bd), to(#e88f77));
+  background-image: -moz-linear-gradient(top, #f4c9bd, #e88f77);
+  background-image: -ms-linear-gradient(top, #f4c9bd, #e88f77);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f4c9bd), color-stop(100%, #e88f77));
+  background-image: -webkit-linear-gradient(top, #f4c9bd, #e88f77);
+  background-image: -o-linear-gradient(top, #f4c9bd, #e88f77);
+  background-image: linear-gradient(#f4c9bd, #e88f77);
+  border-color: #e88f77 #e88f77 hsl(13, 72%, 65%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.26);
+  -webkit-font-smoothing: antialiased;
 }
